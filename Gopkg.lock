@@ -302,8 +302,6 @@
   name = "go.etcd.io/etcd"
   packages = [
     "etcdserver/api/rafthttp",
-    
-    
     "etcdserver/api/snap",
     "etcdserver/api/snap/snappb",
     "etcdserver/api/v2stats",

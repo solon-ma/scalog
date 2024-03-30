@@ -20,7 +20,7 @@ import (
 	"io"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
+	stats "go.etcd.io/etcd/server/v3/etcdserver/api/v2stats"
 	"go.etcd.io/etcd/pkg/pbutil"
 	"go.etcd.io/etcd/pkg/types"
 	"go.etcd.io/etcd/raft/raftpb"
