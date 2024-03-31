@@ -8,7 +8,7 @@ import (
 	"github.com/scalog/scalog/client"
 	"github.com/scalog/scalog/data"
 	disc "github.com/scalog/scalog/discovery"
-	"github.com/scalog/scalog/order"
+	"github.com/solon-ma/scalog/order"
 	"github.com/scalog/scalog/pkg/address"
 
 	"github.com/spf13/viper"

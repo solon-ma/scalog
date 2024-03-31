@@ -9,7 +9,7 @@ import (
 
 	"github.com/scalog/scalog/data/datapb"
 	log "github.com/scalog/scalog/logger"
-	"github.com/scalog/scalog/order/orderpb"
+	"github.com/solon-ma/scalog/order/orderpb"
 	"github.com/scalog/scalog/pkg/address"
 	"github.com/scalog/scalog/storage"
 	"google.golang.org/grpc"

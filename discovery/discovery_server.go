@@ -8,7 +8,7 @@ import (
 
 	"github.com/scalog/scalog/discovery/discpb"
 	log "github.com/scalog/scalog/logger"
-	"github.com/scalog/scalog/order/orderpb"
+	"github.com/solon-ma/scalog/order/orderpb"
 	"github.com/scalog/scalog/pkg/address"
 
 	"google.golang.org/grpc"

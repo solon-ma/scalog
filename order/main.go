@@ -6,7 +6,7 @@ import (
 	"time"
 
 	log "github.com/scalog/scalog/logger"
-	"github.com/scalog/scalog/order/orderpb"
+	"github.com/solon-ma/scalog/order/orderpb"
 
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
