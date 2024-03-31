@@ -5,7 +5,7 @@ import (
 	"io"
 
 	log "github.com/scalog/scalog/logger"
-	"github.com/solon-ma/scalog/order/orderpb"
+	"github.com/scalog/scalog/order/orderpb"
 )
 
 func (s *OrderServer) Report(stream orderpb.Order_ReportServer) error {

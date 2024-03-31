@@ -4,7 +4,6 @@ import (
 	"time"
 
 	log "github.com/scalog/scalog/logger"
-	"context"
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -50,7 +49,7 @@ func GetShardPods(clientset *kubernetes.Clientset, labelSelector string, expecte
 	query := metav1.ListOptions{LabelSelector: labelSelector}
 
 	for {
-		pods, err := clientset.CoreV1().Pods(namespace).List(context.TODO(),query)
+		pods, err := clientset.CoreV1().Pods(namespace).List(query)
 		if err != nil {
 			log.Panicf(err.Error())
 		}

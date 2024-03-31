@@ -9,7 +9,7 @@ import (
 	"time"
 
 	log "github.com/scalog/scalog/logger"
-	"github.com/solon-ma/scalog/order/orderpb"
+	"github.com/scalog/scalog/order/orderpb"
 	"github.com/scalog/scalog/pkg/kube"
 
 	"github.com/spf13/viper"

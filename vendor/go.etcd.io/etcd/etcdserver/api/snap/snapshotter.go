@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap/snappb"
+	"go.etcd.io/etcd/etcdserver/api/snap/snappb"
 	pioutil "go.etcd.io/etcd/pkg/ioutil"
 	"go.etcd.io/etcd/pkg/pbutil"
 	"go.etcd.io/etcd/raft"

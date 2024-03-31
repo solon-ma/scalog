@@ -7,10 +7,10 @@ import (
 	"time"
 
 	log "github.com/scalog/scalog/logger"
-	"github.com/solon-ma/scalog/order/orderpb"
+	"github.com/scalog/scalog/order/orderpb"
 
 	"github.com/golang/protobuf/proto"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap"
+	"go.etcd.io/etcd/etcdserver/api/snap"
 	"go.etcd.io/etcd/raft/raftpb"
 )
 

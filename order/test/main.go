@@ -4,7 +4,7 @@ package main
 import (
 	"context"
 
-	"github.com/solon-ma/scalog/order/orderpb"
+	"github.com/scalog/scalog/order/orderpb"
 
 	"google.golang.org/grpc"
 )

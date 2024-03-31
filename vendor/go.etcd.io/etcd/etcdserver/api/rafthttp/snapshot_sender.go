@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap"
+	"go.etcd.io/etcd/etcdserver/api/snap"
 	"go.etcd.io/etcd/pkg/httputil"
 	pioutil "go.etcd.io/etcd/pkg/ioutil"
 	"go.etcd.io/etcd/pkg/types"
